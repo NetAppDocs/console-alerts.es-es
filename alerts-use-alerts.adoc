@@ -18,7 +18,7 @@ Vea las alertas asociadas con su sistema de almacenamiento ONTAP y profundice en
 
 == Ver detalles de la alerta
 
-. link:alerts-start-login.html["Inicie sesión en la consola de NetApp"] .
+. link:alerts-start-login.html["Inicie sesión en la NetApp Console"] .
 . Desde la barra de navegación izquierda de la consola, seleccione *Almacenamiento* > *Alertas*.
 . Desde la página de lista de alertas, seleccione una alerta.
 +

@@ -16,13 +16,13 @@ Para utilizar las alertas de ONTAP , realice unos pocos pasos para configurarlas
 
 Antes de comenzar, reviselink:alerts-start-prerequisites.html["prerrequisitos"] para garantizar que su entorno esté preparado.
 
-Revisar https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos estándar de la consola NetApp"^] .
+Revisar https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos estándar de la NetApp Console"^] .
 
 
 
 == Acceso a los recursos del clúster
 
-Para ver las alertas, el usuario que inició sesión debe ser parte de la organización de la consola de NetApp y debe tener el acceso requerido al recurso del clúster.
+Para ver las alertas, el usuario que inició sesión debe ser parte de la organización de la NetApp Console y debe tener el acceso requerido al recurso del clúster.
 
 
 
@@ -30,6 +30,6 @@ Para ver las alertas, el usuario que inició sesión debe ser parte de la organi
 
 Debe comunicarse con su representante de ventas de NetApp para probar o utilizar las alertas de ONTAP .  Luego, cuando utilice el agente de consola, incluirá las capacidades adecuadas para las alertas de ONTAP .
 
-Para crear el agente de consola en la consola de NetApp , consulte la documentación de BlueXP que describe https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Cómo crear un agente de consola"^] .
+Para crear el agente de consola en la NetApp Console, consulte la documentación de BlueXP que describe https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Cómo crear un agente de consola"^] .
 
 Después de configurar el agente de consola y agregar el sistema, espere aproximadamente 15 minutos para la detección inicial.

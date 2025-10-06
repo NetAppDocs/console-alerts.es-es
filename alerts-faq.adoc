@@ -18,25 +18,25 @@ Estas preguntas frecuentes pueden ser útiles si simplemente busca una respuesta
 
 == Acceso a alertas de NetApp
 
-¿Cuál es la URL de alertas de NetApp ?  Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la consola de NetApp .
+¿Cuál es la URL de alertas de NetApp ?  Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la NetApp Console.
 
 ¿Necesita una licencia para utilizar las alertas de NetApp ?
 
-El uso de alertas de NetApp requiere una licencia de NetApp ONTAP 9.10 o superior.  No es necesario ingresar la licencia en la billetera digital de NetApp Console.
+El uso de alertas de NetApp requiere una licencia de NetApp ONTAP 9.10 o superior.  No es necesario ingresar la licencia en la billetera digital de NetApp Console .
 
 No es necesario tener una licencia de prueba para las alertas de NetApp .
 
-¿Cómo habilitar las alertas de NetApp ?  Las alertas de NetApp no ​​requieren ninguna habilitación.  La opción de alertas se habilita automáticamente en la navegación izquierda de la consola NetApp .
+¿Cómo habilitar las alertas de NetApp ?  Las alertas de NetApp no ​​requieren ninguna habilitación.  La opción de alertas se habilita automáticamente en la navegación izquierda de la NetApp Console .
 
 Para comenzar, cuando utilice el agente de consola, incluirá las capacidades adecuadas para las alertas de NetApp .
 
-**¿Las alertas de NetApp están disponibles en los modos estándar, restringido y privado?**  Las alertas de NetApp solo se pueden implementar en la consola NetApp estándar (pública).
+**¿Las alertas de NetApp están disponibles en los modos estándar, restringido y privado?**  Las alertas de NetApp solo se pueden implementar en la NetApp Console estándar (pública).
 
-Para obtener una explicación sobre estos modos en todos los servicios de la consola de NetApp , consulte https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modos de implementación de la consola de NetApp"^] .
+Para obtener una explicación sobre estos modos en todos los servicios de la NetApp Console , consulte https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modos de implementación de la NetApp Console"^] .
 
-**¿Cómo se gestionan los permisos de acceso?**  Solo los administradores de la organización de la consola de NetApp tienen la capacidad de iniciar alertas de NetApp y descubrir cargas de trabajo (porque esto implica comprometerse con el uso de un recurso).
+**¿Cómo se gestionan los permisos de acceso?**  Solo los administradores de la organización de la NetApp Console tienen la capacidad de iniciar alertas de NetApp y descubrir cargas de trabajo (porque esto implica comprometerse con el uso de un recurso).
 
-Se muestran alertas a los usuarios que iniciaron sesión según su acceso al recurso del clúster en esa organización de la consola de NetApp .
+Se muestran alertas a los usuarios que iniciaron sesión según su acceso al recurso del clúster en esa organización de la NetApp Console .
 
 
 
