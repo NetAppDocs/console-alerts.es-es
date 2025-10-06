@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-login.html 
+keywords: NetApp Console login, log in, ontap, netapp 
+summary: Comience a utilizar las alertas de ONTAP accediendo a las alertas de ONTAP en la consola de NetApp . 
+---
+= Acceda a las alertas de ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Utilice la consola de NetApp para ver las alertas de ONTAP .
+
+Para iniciar sesión en la consola de NetApp , puede usar sus credenciales del sitio de soporte de NetApp o puede registrarse para iniciar sesión en la nube de NetApp usando su correo electrónico y una contraseña. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^] .
+
+.Pasos
+. Abra un navegador web y vaya a https://console.netapp.com/["Consola de NetApp"^] .
++
+Aparece la página de inicio de sesión de la consola.
+
+. Inicie sesión en la consola.
+. Desde la barra de navegación izquierda de la consola, seleccione *Almacenamiento* > *Alertas*.
++
+Aparece la página de lista de alertas.
+
++
+image:alerts-dashboard.png["Página de lista de alertas de ONTAP"]
+
+

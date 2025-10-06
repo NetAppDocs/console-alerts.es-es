@@ -1,0 +1,40 @@
+---
+indexpage:
+  title: Documentación de alertas de ONTAP
+  summary: Vea problemas o riesgos potenciales en su entorno NetApp ONTAP .  Puede
+    explorar los detalles de las alertas y ver la información del clúster mediante
+    ONTAP System Manager.
+  keywords: bluexp, ONTAP, alerts, system manager
+  lead: Vea problemas o riesgos potenciales en su entorno de NetApp ONTAP relacionados
+    con la capacidad, el rendimiento, la protección, la disponibilidad y la seguridad.  Puede
+    explorar los detalles de las alertas y ver la información del clúster vinculada
+    a ONTAP System Manager.
+  tiles:
+  - title: Empezar
+    links:
+    - title: Obtenga más información sobre las alertas de ONTAP
+      url: "/concept-alerts.html"
+    - title: Novedades en las alertas de ONTAP
+      url: "/whats-new.html"
+    - title: Prerrequisitos
+      url: "/alerts-start-prerequisites.html"
+    - title: Inicio rápido
+      url: "/alerts-start-quick-start.html"
+    - title: Configurar alertas de ONTAP
+      url: "/alerts-start-setup.html"
+    - title: Preguntas frecuentes
+      url: "/alerts-faq.html"
+  - title: Utilice las alertas de ONTAP
+    links:
+    - title: Ver descripción general de las alertas de ONTAP
+      url: "/alerts-use-overview.html"
+    - title: Ver el estado de la carga de trabajo mediante la página de lista de alertas
+      url: "/alerts-use-dashboard.html"
+  - title: Blogs y comunidad
+    links:
+    - title: Consola de NetApp
+      url: https://www.netapp.com/console
+    - title: Servicios de datos de NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com

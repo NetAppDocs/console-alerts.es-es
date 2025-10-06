@@ -1,0 +1,47 @@
+---
+settings:
+  name: ONTAP alerts
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+    lipi_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: es-es,us-en,de-de,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentos de alertas de ONTAP
+    url: "/index.html"
+  - title: Notas de la versión
+    entries:
+    - title: Qué hay de nuevo
+      url: "/whats-new.html"
+  - title: Empezar
+    entries:
+    - title: Obtenga más información sobre las alertas de ONTAP
+      url: "/concept-alerts.html"
+    - title: Prerrequisitos
+      url: "/alerts-start-prerequisites.html"
+    - title: Inicio rápido
+      url: "/alerts-start-quick-start.html"
+    - title: Configurar alertas de ONTAP
+      url: "/alerts-start-setup.html"
+    - title: Acceda a las alertas de ONTAP
+      url: "/alerts-start-login.html"
+  - title: Utilice las alertas de ONTAP
+    entries:
+    - title: Ver descripción general de las alertas de ONTAP
+      url: "/alerts-use-overview.html"
+    - title: Ver los riesgos potenciales en el almacenamiento de ONTAP
+      url: "/alerts-use-dashboard.html"
+    - title: Ver alertas en su sistema de almacenamiento
+      url: "/alerts-use-alerts.html"
+  - title: Preguntas frecuentes
+    url: "/alerts-faq.html"
+  - title: Avisos legales
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

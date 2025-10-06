@@ -1,0 +1,175 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: Obtenga información general sobre el estado de su entorno ONTAP .  Puede identificar rápidamente los clústeres de ONTAP que tienen baja capacidad o bajo rendimiento, medir el grado de disponibilidad, determinar la disponibilidad e identificar riesgos de seguridad. 
+---
+= Vea los riesgos potenciales en el almacenamiento de ONTAP mediante la página de lista de alertas
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vea información general sobre los riesgos potenciales en su sistema ONTAP .  Puede identificar rápidamente los clústeres de ONTAP que tienen baja capacidad o bajo rendimiento, medir el grado de disponibilidad, determinar la disponibilidad e identificar riesgos de seguridad.
+
+Puedes ver información sobre estas severidades y áreas de impacto:
+
+* *Gravedades*: Crítico, Advertencia, Informativo
+* *Áreas de impacto*: Capacidad, Rendimiento, Disponibilidad, Protección, Seguridad, Configuración
+
+
+
+
+== Alertas que podrías ver
+
+A continuación se muestran algunas de las alertas que se muestran.
+
+La gravedad del EMS se asigna a la gravedad de las alertas de ONTAP de las siguientes maneras:
+
+[cols="40,40"]
+|===
+| Gravedad de la alerta EMS: | Gravedad de la alerta de la consola de NetApp : 
+
+
+| alerta o emergencia | crítico 
+
+
+| error | Ninguno 
+
+
+| Bajo | advertencia 
+
+
+| aviso | informativo 
+
+
+| informativo | informativo 
+|===
+.Lista de alertas
+[%collapsible]
+====
+Alertas de gravedad crítica:
+
+* El estado agregado no está en línea
+* Fallo de disco
+* El tiempo de retraso de SnapMirror es alto
+* Estado del volumen fuera de línea
+* Incumplimiento del porcentaje de volumen utilizado
+
+
+Alertas de EMS:
+
+* El servidor antivirus está ocupado
+* Credenciales de AWS no inicializadas
+* Nivel de nube inalcanzable
+* Disco fuera de servicio
+* Se descubrió una fuente de alimentación para el estante de discos
+* Se quitó la fuente de alimentación de los estantes de discos
+* Se completó la resincronización de la replicación del espejo de FabricPool
+* El límite de uso de espacio de FabricPool casi se alcanzó
+* Se alcanzó el límite de uso de espacio de FabricPool
+* Comandos de puerto de destino FC excedidos
+* Error en la devolución del grupo de almacenamiento
+* Interconexión HA inactiva
+* LUN destruido
+* LUN sin conexión
+* El ventilador de la unidad principal falló
+* Ventilador de la unidad principal en estado de advertencia
+* Se excedió el máximo de sesiones por usuario
+* Se excedió el número máximo de veces que se abrió cada archivo
+* Cambio automático no planificado de MetroCluster deshabilitado
+* Monitoreo de MetroCluster
+* Conflicto de nombres NetBIOS
+* El grupo de dolor de NFSv4 se ha agotado
+* Pánico en el nodo
+* Espacio de volumen de raíz de nodo bajo
+* Compartir administrador inexistente
+* Servidor antivirus que no responde
+* No hay ningún motor de escaneo registrado
+* Sin conexión Vscan
+* Espacio de nombres NVMe destruido
+* Espacio de nombres NVMe sin conexión
+* Espacio de nombres NVMe en línea
+* Período de gracia de la licencia NVMe-oF activo
+* El período de gracia de la licencia NVMe-oF ha expirado
+* Inicio del período de gracia de la licencia NVMe-oF
+* Batería NVRAM baja
+* Host del almacén de objetos no resoluble
+* El almacén de objetos intercluster LIF está inactivo
+* Desajuste de firma del almacén de objetos
+* La memoria del monitor QoS está al máximo
+* Actividad de ransomware detectada
+* Error en la reubicación del grupo de almacenamiento
+* Se agregó el mediador de ONTAP
+* Mediador de ONTAP no accesible
+* Mediador de ONTAP inalcanzable
+* Mediador de ONTAP eliminado
+* Tiempo de espera de READDIR
+* El estado "activo-activo" de SAN cambió
+* Se perdió el latido del procesador de servicio
+* El latido del procesador de servicio se detuvo
+* Procesador de servicios fuera de línea
+* Procesador de servicio no configurado
+* Error en la copia de sombra
+* Adaptador de destino SFP en FC que recibe baja potencia
+* Adaptador de destino SFP en FC que transmite baja potencia
+* El ventilador de estante falló
+* Certificado de CA de SMBC expirado
+* Certificado de CA SMBC a punto de expirar
+* El certificado de cliente SMBC ha expirado
+* Certificado de cliente SMBC a punto de expirar
+* La relación SMBC no está sincronizada
+* El certificado del servidor SMBC ha expirado
+* El certificado del servidor SMBC está a punto de expirar
+* La relación de SnapMirror no está sincronizada
+* Las fuentes de alimentación del conmutador de almacenamiento fallaron
+* Monitoreo anti-ransomware de máquinas virtuales de almacenamiento
+* La máquina virtual de almacenamiento se detuvo correctamente
+* El sistema no puede funcionar debido a una falla del ventilador de la unidad principal
+* Demasiadas autenticaciones CIFS
+* Discos no asignados
+* Acceso de usuario no autorizado al recurso compartido de administración
+* Virus detectado
+* Monitoreo antiransomware de volumen
+* El cambio de tamaño automático del volumen se realizó correctamente
+* Volumen fuera de línea
+* Volumen restringido
+
+
+====
+Para obtener detalles sobre las alertas de ONTAP , consulte la documentación de ONTAP y la información de ONTAP System Manager en https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["Información de ONTAP System Manager sobre problemas de capacidad, seguridad y configuración"^] .
+
+
+
+== Ver problemas de almacenamiento de ONTAP
+
+.Pasos
+. link:alerts-start-login.html["Inicie sesión en la consola de NetApp"] .
+. Desde la barra de navegación izquierda de la consola, seleccione *Almacenamiento* > *Alertas*.
++
+Después del descubrimiento, la página de lista de alertas muestra una lista de alertas en su sistema ONTAP .
+
++
+Puede haber una demora entre que ocurre un evento y las alertas de ONTAP que lo muestran.
+
+. Desde la página de lista de alertas, puede ver y realizar cualquiera de las siguientes acciones:
++
+** Cambie el orden de clasificación seleccionando la flecha hacia arriba o hacia abajo de una columna.
+** Cambia el filtro en las columnas para mostrar sólo la información que deseas.
++
+
+TIP: Por ejemplo, es posible que desee ver solo aquellas alertas relacionadas con la capacidad.  Para ello, seleccione el ícono de filtro en la columna Área de impacto, seleccione *Capacidad* y seleccione *Aplicar*.
+
++
+image:alerts-dashboard-capacity-filter.png["Página de alertas que muestra los filtros del área de impacto"]
+
+** Descargue un archivo CSV que contiene la información de las alertas.
++
+Puedes descargar hasta 1000 alertas.  El archivo incluye datos basados en los filtros que se establecieron.
+
+** Seleccione una alerta y explore los detalles de la alerta en ese clúster. Ver link:alerts-use-alerts.html["Ver detalles de la alerta"] .
+
+
+

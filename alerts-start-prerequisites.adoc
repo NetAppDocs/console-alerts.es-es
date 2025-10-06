@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites, ontap alerts 
+summary: Comience a utilizar las alertas de ONTAP verificando la compatibilidad con su entorno, acceso a la red, inicio de sesión y navegador web. 
+---
+= Requisitos previos de las alertas de ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+Comience a utilizar las alertas de ONTAP verificando la preparación de su entorno operativo.
+
+Para ver las alertas de ONTAP , necesitará estos requisitos previos:
+
+* ONTAP 9.10 y posteriores.  El sistema local debe detectarse en la página Sistemas de consola de NetApp .
++
+** Permisos de ONTAP del administrador del clúster
++
+No es necesario ingresar la licencia en la billetera digital de NetApp Console.
+
+
+
+* En la consola de NetApp :
++
+** Un sistema de consola NetApp con almacenamiento NAS o SAN local de NetApp
+** Se debe configurar un agente de consola para una región local en la consola de NetApp . Referirse a https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentación de la consola de NetApp para configurar el agente de la consola"^] .
++
+Si se elimina un clúster del agente de la consola, las alertas relacionadas con ese clúster permanecen durante 90 días.  Además, si cambia el agente de la consola, las alertas permanecen asociadas con el clúster y el agente originales durante 90 días.  Si regresa al agente original, volverá a ver esas alertas.
+
+** Una organización de consola de NetApp con al menos un agente de consola activo que se conecta a clústeres de ONTAP locales.  Todas las fuentes y sistemas deben estar en la misma organización de la consola NetApp .
+** Un usuario de la consola de NetApp en esa organización con privilegios de administrador de la organización para descubrir recursos
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos estándar de la consola NetApp"^]
+
+
+
