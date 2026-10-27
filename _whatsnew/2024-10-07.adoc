@@ -4,18 +4,21 @@
 
 
 
+[[bluexp-alerts-list-page]]
 === Página de lista de BlueXP alerts
 
 Puede identificar rápidamente los clústeres de ONTAP que tienen baja capacidad o bajo rendimiento, evaluar el grado de disponibilidad e identificar riesgos de seguridad.  Puede ver alertas relacionadas con la capacidad, el rendimiento, la protección, la disponibilidad, la seguridad y la configuración.
 
 
 
+[[alerts-details]]
 === Detalles de las alertas
 
 Puede explorar los detalles de las alertas y encontrar recomendaciones.
 
 
 
+[[view-cluster-details-linked-to-ontap-system-manager]]
 === Ver detalles del clúster vinculados a ONTAP System Manager
 
 Con las BlueXP alerts, puede ver las alertas asociadas con su entorno de almacenamiento de ONTAP y profundizar en los detalles vinculados a ONTAP System Manager.

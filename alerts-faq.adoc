@@ -16,6 +16,7 @@ Estas preguntas frecuentes pueden ser útiles si simplemente busca una respuesta
 
 
 
+[[access-to-netapp-alerts]]
 == Acceso a alertas de NetApp
 
 ¿Cuál es la URL de alertas de NetApp ?  Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la NetApp Console.
@@ -40,6 +41,7 @@ Se muestran alertas a los usuarios que iniciaron sesión según su acceso al rec
 
 
 
+[[view-alerts]]
 == Ver alertas
 
 **¿Cuánto tiempo debo esperar antes de empezar a recibir alertas?**
@@ -58,6 +60,7 @@ Para ver todas las alertas, seleccione el filtro de la columna Estado y seleccio
 
 
 
+[[display-of-information]]
 == Visualización de información
 
 **¿Qué resolución de dispositivo es mejor?**  La resolución de dispositivo recomendada para las alertas de NetApp es 1920 x 1080 o superior.

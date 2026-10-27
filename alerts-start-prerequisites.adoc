@@ -4,7 +4,7 @@ permalink: alerts-start-prerequisites.html
 keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites, ontap alerts 
 summary: Comience a utilizar las alertas de ONTAP verificando la compatibilidad con su entorno, acceso a la red, inicio de sesión y navegador web. 
 ---
-= Requisitos previos de las alertas de ONTAP
+= Requisitos previos para ver las alertas de ONTAP en NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

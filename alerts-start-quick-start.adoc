@@ -4,7 +4,7 @@ permalink: alerts-start-quick-start.html
 keywords: how to get started with bluexp alerts, alerts quick start, netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
 summary: Comience a utilizar las alertas de ONTAP en unos pocos pasos. 
 ---
-= Inicio rápido para alertas de ONTAP
+= Inicio rápido para las alertas de ONTAP en NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

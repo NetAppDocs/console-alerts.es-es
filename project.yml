@@ -34,8 +34,6 @@ sidebar:
       url: "/alerts-start-login.html"
   - title: Utilice las alertas de ONTAP
     entries:
-    - title: Ver descripción general de las alertas de ONTAP
-      url: "/alerts-use-overview.html"
     - title: Ver los riesgos potenciales en el almacenamiento de ONTAP
       url: "/alerts-use-dashboard.html"
     - title: Ver alertas en su sistema de almacenamiento

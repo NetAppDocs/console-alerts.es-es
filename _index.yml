@@ -26,10 +26,10 @@ indexpage:
       url: "/alerts-faq.html"
   - title: Utilice las alertas de ONTAP
     links:
-    - title: Ver descripción general de las alertas de ONTAP
-      url: "/alerts-use-overview.html"
     - title: Ver el estado de la carga de trabajo mediante la página de lista de alertas
       url: "/alerts-use-dashboard.html"
+    - title: Ver alertas en su sistema de almacenamiento
+      url: "/alerts-use-alerts.html"
   - title: Blogs y comunidad
     links:
     - title: NetApp Console

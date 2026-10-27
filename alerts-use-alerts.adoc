@@ -4,7 +4,7 @@ permalink: alerts-use-alerts.html
 keywords: alerts, ontap, netapp, system manager, bluexp 
 summary: Con las alertas de NetApp , puede ver las alertas asociadas con su sistema de almacenamiento ONTAP y profundizar en los detalles vinculados a ONTAP System Manager. 
 ---
-= Ver detalles de alertas en su sistema de almacenamiento ONTAP
+= Consulta los detalles de las alertas de tu sistema de almacenamiento ONTAP en NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -16,6 +16,7 @@ Vea las alertas asociadas con su sistema de almacenamiento ONTAP y profundice en
 
 
 
+[[view-alert-details]]
 == Ver detalles de la alerta
 
 . link:alerts-start-login.html["Inicie sesión en la NetApp Console"] .
@@ -30,6 +31,7 @@ image:alerts-detail.png["Detalles de la alerta"]
 
 
 
+[[view-details-about-the-cluster-in-ontap-system-manager]]
 == Ver detalles sobre el clúster en ONTAP System Manager
 
 . Desde la página de lista de alertas, seleccione una alerta.

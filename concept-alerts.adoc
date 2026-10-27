@@ -4,7 +4,7 @@ permalink: concept-alerts.html
 keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, NetApp Console alerts 
 summary: Vea problemas o riesgos potenciales en su entorno de NetApp ONTAP relacionados con la capacidad, el rendimiento, la disponibilidad y la seguridad.  Puede obtener información detallada mediante ONTAP System Manager. 
 ---
-= Obtenga más información sobre las alertas de ONTAP
+= Más información sobre las alertas de ONTAP en NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,18 +18,20 @@ Vea problemas o riesgos potenciales en sus sistemas ONTAP locales de NetApp medi
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 Ver alertas de ONTAP en la NetApp Console.
 
 La NetApp Console proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial.  La consola es necesaria para acceder y utilizar los servicios de datos de NetApp .  Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz.  Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
 
-No necesita una licencia o suscripción para comenzar a usar la NetApp Console y solo incurre en cargos cuando necesita implementar agentes de la consola en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp .  Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
+No necesitas ninguna licencia ni suscripción para empezar a usar NetApp Console y solo incurrirás en cargos cuando necesites implementar agentes de Console en tu nube para garantizar la conectividad con tus sistemas de almacenamiento o tus servicios de datos de NetApp. Sin embargo, algunos servicios de datos de NetApp a los que puedes acceder desde Console requieren una licencia o una suscripción.
 
 Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 
+[[what-you-can-do-with-ontap-alerts]]
 == Qué puedes hacer con las alertas de ONTAP
 
 Vea las alertas de ONTAP para mantenerse informado sobre los riesgos o riesgos potenciales en su sistema de almacenamiento de ONTAP . Puedes ver algunas alertas que no son de EMS y algunas alertas de EMS.  Puedes ver información sobre estas severidades y áreas de impacto:
@@ -43,6 +45,7 @@ TIP: La opción Notificaciones en la parte superior derecha de la interfaz de us
 
 
 
+[[benefits-of-monitoring-ontap-alerts]]
 == Beneficios de monitorear las alertas de ONTAP
 
 La monitorización de las alertas de ONTAP proporciona los siguientes beneficios:
@@ -54,12 +57,14 @@ La monitorización de las alertas de ONTAP proporciona los siguientes beneficios
 
 
 
+[[cost]]
 == Costo
 
 Puede ver alertas de ONTAP con una licencia de NetApp ONTAP .
 
 
 
+[[licensing]]
 == Licencias
 
 Para ver las alertas de ONTAP se requiere una licencia de NetApp ONTAP 9.10 o superior.
@@ -70,6 +75,7 @@ Las alertas de ONTAP solo se pueden ver en el modo estándar (público) de la Ne
 
 
 
+[[how-ontap-alerts-work]]
 == Cómo funcionan las alertas de ONTAP
 
 Las alertas de ONTAP son un componente central de NetApp Console.  Las alertas de ONTAP monitorean los clústeres de ONTAP y reciben datos de alerta de ONTAP.
@@ -78,6 +84,7 @@ Las alertas de ONTAP solo están disponibles en el entorno SaaS de NetApp Consol
 
 
 
+[[supported-systems-and-data-sources]]
 == Sistemas y fuentes de datos compatibles
 
 Utilice las alertas de ONTAP para verificar problemas en los siguientes sistemas y fuentes de datos.
